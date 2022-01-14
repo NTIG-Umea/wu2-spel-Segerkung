@@ -20,6 +20,7 @@ class PlayScene extends Phaser.Scene {
         // för att göra create metoden mindre rörig
         this.initAnims();
 
+
         // keyboard cursors
         this.cursors = this.input.keyboard.createCursorKeys();
 
@@ -40,6 +41,9 @@ class PlayScene extends Phaser.Scene {
         this.player = this.physics.add.sprite(50, 300, 'player');
         this.player.setBounce(0.1);
         this.player.setCollideWorldBounds(true);
+        this.cameras.main.startFollow(this.player);
+        
+
 
         // skapa en fysik-grupp
         this.spikes = this.physics.add.group({

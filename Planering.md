@@ -12,7 +12,7 @@ Fredag: Förhoppningsvis börja fixa animations till min spelare om estetarna ha
 Vecka 50:
 Måndag: Fixa annat som esterarna har skickat in.
 Onsdag: Fixa bug/småfix
-Fredag: Småfix
+Fredag: Småfix  
 
 Vecka 51
 Måndag: Klar
